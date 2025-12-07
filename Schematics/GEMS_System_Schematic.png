@@ -54,6 +54,34 @@ Image Placeholder
 
 If the image isn’t ready yet, use this line in the README until you upload it:
 
+                  ┌────────────────────────┐
+                  │    OXYGEN PROCESSING   │
+                  │          CORE          │
+                  └────────────┬───────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │   ISOLATION GATE    │
+                    │    (One-Way Valve)  │
+                    └───────────┬─────────┘
+                                │
+                                ▼
+               ┌─────────────────────────────────┐
+               │     BUFFER / STABILIZATION      │
+               │             MANIFOLD             │
+               └────────────────┬─────────────────┘
+                                │
+                                ▼
+                 ┌────────────────────────────────┐
+                 │       OUTPUT REGULATOR          │
+                 │ (Flow + Pressure Stabilization) │
+                 └────────────────┬────────────────┘
+                                │
+                                ▼
+           ┌────────────────────────────────────────────┐
+           │            HABITAT INTERFACE PORT           │
+           │  (Atmosphere Loop / EVA / Emergency Modules)│
+           └────────────────────────────────────────────┘
 
 
 
