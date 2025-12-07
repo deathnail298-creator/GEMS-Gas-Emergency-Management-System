@@ -1,0 +1,95 @@
+Emergency Mode Sequence — GEMS
+
+Activation Logic for Crisis Oxygen Generation
+
+This flowchart shows how GEMS transitions from long-term dormancy into operational emergency mode.
+It outlines trigger conditions, system checks, activation stages, and final O₂ delivery behavior.
+
+This sequence is intentionally simple — GEMS avoids complex logic or heavy processing to maximize reliability after years of inactivity.
+
+Primary Trigger Conditions
+
+GEMS activates when at least one of the following occurs:
+
+Catastrophic primary oxygen system failure
+
+Rapid depressurization event
+
+Habitat O₂ partial pressure drops below safe threshold
+
+Power-grid loss prevents primary ISRU from operating
+
+Manual emergency activation by crew
+
+ACS-2 Emergency Mode Sequence Diagram
+                        ┌──────────────────────────┐
+                        │   START: Dormant State   │
+                        │ (Years of inactivity)    │
+                        └─────────────┬────────────┘
+                                      │
+                                      ▼
+                    ┌───────────────────────────────────┐
+                    │ Detect Emergency Condition        │
+                    │ - Low O₂                         │
+                    │ - Pressure loss                  │
+                    │ - Power failure                  │
+                    │ - Manual command                 │
+                    └─────────────┬────────────────────┘
+                                  │
+                                  ▼
+                    ┌───────────────────────────────────┐
+                    │ Integrity Self-Check              │
+                    │ - Thermal status valid            │
+                    │ - No mechanical obstruction       │
+                    │ - Actuator readiness              │
+                    └─────────────┬────────────────────┘
+                                  │
+                    ┌─────────────┴──────────────┐
+                    │                            │
+                    ▼                            ▼
+        ┌───────────────────┐         ┌────────────────────────┐
+        │  FAIL CONDITION   │         │      PASS CONDITION    │
+        │  → Safe Standby   │         │ → Proceed to Activation│
+        └───────┬───────────┘         └───────────┬────────────┘
+                │                                 │
+                ▼                                 ▼
+        (System halts until             ┌─────────────────────────┐
+         conditions stabilize)          │ Processing Core Warm-Up │
+                                        │ Slow rise → avoid shock │
+                                        └───────────┬────────────┘
+                                                    │
+                                                    ▼
+                                  ┌────────────────────────────────┐
+                                  │ Begin Oxygen Generation         │
+                                  │ - Controlled heat application   │
+                                  │ - O₂-bearing gas produced       │
+                                  └─────────────┬──────────────────┘
+                                                │
+                                                ▼
+                          ┌────────────────────────────────────────┐
+                          │ Gas Routing Path                       │
+                          │ Isolation Gate → Buffer → Regulator    │
+                          └─────────────┬──────────────────────────┘
+                                        │
+                                        ▼
+                     ┌─────────────────────────────────────────────┐
+                     │ Deliver Oxygen to Habitat Systems           │
+                     │ - Pressure stabilization                    │
+                     │ - EVA shelter supply                        │
+                     │ - Emergency breathing atmosphere            │
+                     └─────────────────────────────────────────────┘
+
+ACS-2 Emergency Sequence Summary
+Dormant State
+   ↓
+Emergency Detected
+   ↓
+Integrity Self-Check
+   ↓ (pass)
+Core Warm-Up
+   ↓
+Oxygen Generation
+   ↓
+Gas Routing
+   ↓
+Habitat Delivery
