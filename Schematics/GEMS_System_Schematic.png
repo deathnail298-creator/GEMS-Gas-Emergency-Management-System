@@ -1,0 +1,60 @@
+GEMS System Schematic
+
+This schematic illustrates the major subsystems of the Gas Emergency Management System (GEMS) and the flow of materials through the device.
+It provides a high-level structural reference for orientation only; detailed behavior, thermal logic, and failure modes are documented in the corresponding sections of the repository.
+
+Subsystems Depicted
+1. Passive Regolith Intake Unit
+
+Captures local fines over long durations.
+
+No continuous power or mechanical operation required.
+
+Funnels accumulated material toward the transfer gateway.
+
+2. Hybrid Nudge Transfer Mechanism
+
+Low-power actuators periodically move regolith into the processing chamber.
+
+Designed for long idle periods with minimal wear.
+
+3. Oxygen Processing Core
+
+Contains the oxygen-separation method (thermal cracking, chemical reduction, or membrane configuration).
+
+Fully isolated from the lunar environment and shielded for thermal stability.
+
+4. Buffer and Storage Manifold
+
+Regulates oxygen delivery during emergencies.
+
+Smooths output spikes and stabilizes flow toward the habitat interface.
+
+5. Emergency Control Logic
+
+Minimal-complexity decision pathway.
+
+Activated only during critical oxygen or power failures.
+
+Can operate from backup battery or isolated power trickle.
+
+Intended Use of This Schematic
+
+Reference for engineers reviewing system architecture.
+
+Orientation map for deployment planning and external housing layout.
+
+Visual grounding for other documentation (flowcharts, thermal notes, etc.).
+
+Helps clarify how each subsystem interlocks and why GEMS remains reliable after long dormancy.
+
+The schematic is not meant to show fine detail such as materials, tolerances, or thermal shielding — those are documented separately.
+
+Image Placeholder
+
+If the image isn’t ready yet, use this line in the README until you upload it:
+
+
+
+
+GitHub will auto-render it once the PNG is in place.
