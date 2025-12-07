@@ -1,0 +1,67 @@
+Gas_Routing_Flowchart.md (description text)
+Gas Routing Flowchart — GEMS
+
+This flowchart outlines the internal gas movement pathway during emergency oxygen production.
+It illustrates how oxygen-bearing gas moves from the Processing Core through the system’s stabilization structures and out to the habitat interface.
+
+This chart is intended for:
+
+engineers reviewing flow logic,
+
+validation of component order,
+
+integration with thermal and failure-mode analysis.
+
+It represents functional sequence, not mechanical complexity.
+
+ACS-2 Gas Routing Flowchart
+                   ┌──────────────────────────┐
+                   │  START: Emergency Trigger │
+                   │  (Low O₂ / System Fault)  │
+                   └───────────────┬──────────┘
+                                   │
+                                   ▼
+                   ┌──────────────────────────┐
+                   │   Processing Core Warmup │
+                   │ (Heat-up → gas generation)│
+                   └───────────────┬──────────┘
+                                   │
+                                   ▼
+                   ┌──────────────────────────┐
+                   │     Isolation Gate       │
+                   │   (One-way gas routing)  │
+                   └───────────────┬──────────┘
+                                   │
+                                   ▼
+        ┌───────────────────────────────────────────────────┐
+        │       Buffer / Stabilization Manifold             │
+        │  - Smooths pulses                                 │
+        │  - Regulates pressure                             │
+        └───────────────┬──────────────────────────────────┘
+                        │
+                        ▼
+          ┌──────────────────────────────────────────────┐
+          │            Output Regulator                  │
+          │  (Flow control → Pressure shaping)           │
+          └───────────────┬─────────────────────────────┘
+                          │
+                          ▼
+        ┌───────────────────────────────────────────────────┐
+        │       Habitat Interface / Emergency Feed          │
+        │  - Atmosphere loop                                │
+        │  - EVA shelters                                   │
+        │  - Pressure stabilization                         │
+        └───────────────────────────────────────────────────┘
+
+ACS-2 Summary Flow
+Emergency Trigger
+      ↓
+Processing Core
+      ↓
+Isolation Gate
+      ↓
+Buffer Manifold
+      ↓
+Output Regulator
+      ↓
+Habitat Delivery
