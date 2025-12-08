@@ -262,4 +262,50 @@ That’s the whole point of this system.
 ---
 
 ## 5. ACS-2 Diagram — GEMS Effect on Survival Time
+        ┌────────────────────────────────────┐
+        │  PRIMARY FAILURE (O₂ / LEAK / PWR) │
+        └─────────────────┬──────────────────┘
+                          │
+                          ▼
+              ┌────────────────────────┐
+              │  HABITAT O₂ RESERVES   │
+              │  (Finite margin)       │
+              └───────────┬────────────┘
+                          │
+             ┌────────────┴────────────┐
+             │                         │
+             ▼                         ▼
+  ┌───────────────────────┐   ┌─────────────────────────┐
+  │  NO GEMS CONTRIBUTION │   │  GEMS ACTIVE            │
+  └───────────┬───────────┘   └───────────┬─────────────┘
+              │                           │
+              ▼                           ▼
+  ┌──────────────────────────────┐  ┌─────────────────────────────┐
+  │ Rapid O₂ deficit             │  │ Slower O₂ deficit           │
+  │ Survival time: short        │  │ Survival time: extended     │
+  └───────────┬──────────────────┘  └───────────┬─────────────────┘
+              │                                 │
+              ▼                                 ▼
+   ┌────────────────────────────┐   ┌─────────────────────────────┐
+   │ Limited chance to repair   │   │  More time for:             │
+   │ or evacuate                │   │  - Repair                    │
+   │                            │   │  - EVA suit prep             │
+   │                            │   │  - Compartment isolation     │
+   └────────────────────────────┘   └─────────────────────────────┘
 
+
+---
+
+## 6. Summary
+
+- GEMS cannot magically “fix” a destroyed habitat.
+- What it **can** do is **shift the survival curve**:
+  - covering full O₂ for one or two crew in some scenarios, or  
+  - dramatically slowing the rate at which a dangerous situation becomes fatal.
+
+Even at modest, realistic output levels, GEMS can buy:
+
+- tens of minutes in aggressive leak scenarios, and  
+- hours to days in less severe but still critical failures.
+
+That extra time is the difference between **a scramble and a body count**.
