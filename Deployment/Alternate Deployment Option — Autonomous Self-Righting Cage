@@ -1,0 +1,108 @@
+Autonomous Deployment Variant (Optional Embodiment)
+
+In addition to traditional manual placement, GEMS supports an alternate deployment configuration utilizing a self-righting protective cage.
+This variant is designed for rapid, low-precision, autonomous surface deployment where crew involvement is limited or non-existent.
+
+1. Purpose of the Cage System
+
+The cage provides:
+
+Impact protection during landing or drop deployment
+
+Automatic upright stabilization using a weighted base
+
+Orientation control without human intervention
+
+Immediate operational readiness upon touchdown
+
+Reduced EVA time for distributed GEMS node placement
+
+This enables mission planners to deploy multiple GEMS units around a habitat, along EVA corridors, or as redundant safety nodes, without requiring astronauts to manually position each system.
+
+2. Cage Design Overview
+
+The cage consists of:
+
+A rigid external frame to absorb impact loads
+
+A weighted lower hemisphere that forces the unit upright
+
+Shock damping ribs to reduce high-g lander drop forces
+
+Clearance space ensuring the GEMS intake remains unobstructed
+
+Anchor points for optional future regolith berming
+
+The internal GEMS unit remains fully enclosed and protected until landing stabilization is complete.
+
+3. Deployment Method
+Aerial or Lander Drop Deployment
+
+The cage variant is designed to be:
+
+tossed from a robotic arm,
+
+dropped from a low-altitude hopper,
+
+or released from a lander descent bay.
+
+Precision landing is not required.
+
+Self-Righting Behavior
+
+After impact, the:
+
+weighted base rotates the cage upright,
+
+internal shock mounts settle,
+
+intake port aligns toward expected dust flow,
+
+system automatically enters Dormant Mode.
+
+Activation
+
+Once stabilized:
+
+Crew may connect the oxygen line later via EVA, or
+
+Habitat may use pre-routed surface conduits if planned in advance.
+
+The GEMS internal logic does not change — only the deployment mechanics differ.
+
+4. ACS-2 Diagram — Autonomous Self-Righting Cage
+                   ┌────────────────────────────────┐
+                   │        DEPLOYMENT STAGE        │
+                   │   (Drop from lander / hopper)  │
+                   └───────────────┬────────────────┘
+                                   │
+                                   ▼
+              ┌──────────────────────────────────────────┐
+              │      IMPACT & SHOCK ABSORPTION           │
+              │ - Cage frame absorbs landing load        │
+              │ - Internal mounts protect GEMS unit      │
+              └──────────────────┬───────────────────────┘
+                                 │
+                                 ▼
+            ┌────────────────────────────────────────────┐
+            │        SELF-RIGHTING ORIENTATION           │
+            │ - Weighted base rotates cage upright       │
+            │ - Intake clears and faces environment      │
+            └──────────────────┬─────────────────────────┘
+                               │
+                               ▼
+        ┌──────────────────────────────────────────────────────┐
+        │         STABILIZED POST-LANDING POSITION             │
+        │ - GEMS centered and upright                          │
+        │ - External cage protects from dust & micro-impact    │
+        └──────────────────┬───────────────────────────────────┘
+                           │
+                           ▼
+         ┌────────────────────────────────────────────────────┐
+         │         ENTER DORMANT EMERGENCY READINESS          │
+         │ - System initializes baseline                      │
+         │ - Waits for emergency trigger                      │
+         └────────────────────────────────────────────────────┘
+
+ACS-2 Summary (Alternate Embodiment)
+Drop → Impact Absorption → Self-Right → Stabilize → Dormant Mode
