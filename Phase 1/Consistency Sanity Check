@@ -1,0 +1,263 @@
+Phase-1 Consistency Sanity Check
+
+GEMS: Phase 1 vs Phase 2 / Phase 3
+
+Bottom Line (Up Front)
+
+Phase 1 is clean.
+There is no scope bleed, no license conflict, no implied performance promise, and no hidden dependency on Phase 2 or Phase 3.
+
+If someone complains later, they’re either skimming or being disingenuous.
+
+1. Scope Boundary Check
+Phase 1 Claims
+
+Phase 1 explicitly claims:
+
+Feasibility validation
+
+Geometry-driven intake, capture, routing
+
+Dormant + activation behavior
+
+Failure characterization
+
+Bench / lab / analog testing only
+
+Phase 2 / 3 Claims
+
+Phase 2 / 3 covers:
+
+System optimization
+
+Environmental operation (vacuum, thermal, mission context)
+
+Performance, throughput, integration
+
+Commercialization pathway
+
+Conflict?
+
+None.
+
+Phase 1 never:
+
+Claims throughput
+
+Claims oxygen purity
+
+Claims operational readiness
+
+Claims environment survivability
+
+Claims integration
+
+Result: Scope separation is explicit and defensible.
+
+2. Hardware Definition Alignment
+Phase 1 Hardware
+
+Single static prototype
+
+Passive geometry
+
+No pressure vessels
+
+No continuous operation requirement
+
+Electronics optional, non-functional
+
+Phase 2 / 3 Hardware
+
+Environment-qualified hardware
+
+Integrated systems
+
+Performance-driven architecture
+
+Operational duty cycles
+
+Conflict?
+
+None.
+
+Phase 1 hardware is not a subset of Phase 2 hardware — it’s a concept validation artifact. That distinction matters legally and technically.
+
+3. Test Plan vs Phase 2 / 3 Dependency
+Phase 1 Tests
+
+Intake acceptance
+
+Capture retention
+
+Passive routing
+
+Blockage characterization
+
+Dormant survival
+
+First-activation behavior
+
+Deferred (Explicit)
+
+Vacuum
+
+Cryogenic
+
+Continuous operation
+
+Performance metrics
+
+Conflict?
+
+None.
+
+Deferred tests are:
+
+Named
+
+Justified
+
+Explicitly excluded
+
+That prevents any “you implied this was proven” nonsense.
+
+4. Language Audit (This Is the Big One)
+Phase 1 Language
+
+Uses:
+
+“Observe”
+
+“Characterize”
+
+“Determine whether”
+
+“Explainable behavior”
+
+“Failure is valid data”
+
+Avoids:
+
+“Demonstrates operational capability”
+
+“Validates performance”
+
+“Proves readiness”
+
+“Suitable for deployment”
+
+Phase 2 / 3 Language
+
+Uses:
+
+Performance framing
+
+Commercialization framing
+
+Environmental readiness
+
+Integration pathways
+
+Conflict?
+
+None.
+
+This is exactly how NASA and primes separate TRL 3–4 from TRL 6–7.
+
+5. Licensing & Permission Flow Check
+Phase 0 / 1 License
+
+Open reference
+
+Prototyping allowed
+
+No commercialization rights
+
+No restriction on continuing work
+
+Phase 2 / 3 License
+
+Paid
+
+Planning, analysis, execution rights
+
+Commercialization-adjacent
+
+Key Question:
+
+“If I buy Phase 2/3, do I lose Phase 1 rights?”
+
+Answer: No.
+Phase 1 rights are independent and already granted.
+
+Key Question:
+
+“If I don’t buy Phase 2/3, can I still prototype?”
+
+Answer: Yes.
+Phase 1 explicitly allows it.
+
+No contradiction, no revocation, no ambiguity.
+
+6. Executive Appendix Consistency
+Phase 1 Appendix
+
+One-number cost
+
+One-number time
+
+One-number unit price
+
+Clearly labeled as planning estimates
+
+No binding language
+
+Phase 2 / 3 Docs
+
+Expanded justification
+
+Deeper modeling
+
+Execution framing
+
+Conflict?
+
+None.
+
+Executives can safely lift Phase 1 numbers into spreadsheets without accidentally claiming readiness.
+
+7. “Hostile Reviewer” Kill-Shot Check
+Possible Attack:
+
+“You’re really doing Phase 2 work in Phase 1.”
+
+Fails because:
+
+No performance tests
+
+No environment tests
+
+No integration tests
+
+No optimization claims
+
+Possible Attack:
+
+“You implied this works on the Moon.”
+
+Fails because:
+
+Explicit Earth-ambient testing only
+
+Environmental tests explicitly deferred
+
+Possible Attack:
+
+“This is a production design.”
+
+Fails because:
+
+Materials, tolerances, QA explicitly excluded
+
+Prototype definition blocks that interpretation
