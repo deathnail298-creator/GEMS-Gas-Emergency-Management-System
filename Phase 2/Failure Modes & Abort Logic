@@ -1,0 +1,228 @@
+Phase 2 — Failure Modes & Abort Logic
+
+GEMS (Gas Emergency Management System)
+
+Purpose
+
+This document defines the anticipated failure modes, degradation behavior, and abort logic for GEMS during Phase 2 analysis.
+
+The goal is not to eliminate failure, but to understand it, bound it, and prevent unsafe interpretation.
+All behavior described here is analytical and non-executing.
+
+Failure Philosophy
+
+Failure is expected
+
+Degradation is preferable to abrupt loss
+
+Passive failure is preferable to active recovery
+
+Abort logic is conceptual, not implemented
+
+Phase 2 answers “What happens when things go wrong?” — not “How do we guarantee success?”
+
+Failure Mode Categories
+1. Intake Failure
+
+Description:
+
+Partial or complete blockage of intake geometry
+
+Obstruction by dust, debris, or environmental accumulation
+
+Expected Behavior:
+
+Reduced or zero intake
+
+No self-clearing requirement
+
+No active mitigation
+
+Failure Classification:
+
+Tolerable
+
+Non-catastrophic
+
+2. Internal Routing Failure
+
+Description:
+
+Bridging or clogging within internal routing paths
+
+Settling-induced stagnation
+
+Expected Behavior:
+
+Flow reduction or stoppage
+
+Gas retained internally or vented passively
+
+Failure Classification:
+
+Tolerable
+
+Predictable degradation
+
+3. Storage / Buffer Saturation
+
+Description:
+
+Internal volumes reach capacity
+
+Temporary containment no longer available
+
+Expected Behavior:
+
+Flow stalls
+
+Passive venting or back-pressure relief by geometry
+
+Failure Classification:
+
+Tolerable
+
+Non-hazardous by design assumption
+
+4. Activation Failure
+
+Description:
+
+Failure to transition from dormant to active behavior
+
+Partial activation only
+
+Expected Behavior:
+
+System remains inert or partially functional
+
+No unintended activation
+
+Failure Classification:
+
+Tolerable
+
+Loss of function, not hazard creation
+
+5. Structural Degradation
+
+Description:
+
+Material wear
+
+Cracking
+
+Loss of integrity due to environment or age
+
+Expected Behavior:
+
+Gradual performance loss
+
+No sudden energetic failure assumed
+
+Failure Classification:
+
+Tolerable
+
+End-of-life condition
+
+6. Environmental Overstress
+
+Description:
+
+Thermal extremes beyond assumed envelope
+
+Dust exposure beyond assumed bounds
+
+Expected Behavior:
+
+Accelerated degradation
+
+Reduced operational effectiveness
+
+Failure Classification:
+
+Conditionally tolerable
+
+Severity depends on extent of overstress
+
+Catastrophic Failure Definition (Phase 2)
+
+A catastrophic failure is defined as:
+
+Creation of a new hazard
+
+Uncontrolled release of energy
+
+Damage propagation beyond GEMS boundary
+
+Phase 2 assumes catastrophic failure is not the nominal mode, but does not claim it is impossible.
+
+Abort Logic (Conceptual Only)
+Abort Definition
+
+An abort is a passive cessation of function intended to prevent escalation.
+
+Abort does not imply:
+
+Active control
+
+Autonomous decision-making
+
+Operator intervention
+
+Abort Triggers (Analytical)
+
+Persistent blockage
+
+Internal saturation
+
+Structural compromise
+
+Environmental overstress
+
+Abort Behavior
+
+Transition to inert state
+
+Passive venting or isolation
+
+No re-attempt logic assumed
+
+Abort is considered successful if:
+
+No new hazard is created
+
+System does not escalate failure
+
+Degradation vs Abort Distinction
+Condition	Outcome
+Reduced performance	Degradation
+Loss of function	Degradation
+Risk of escalation	Abort
+Creation of hazard	Catastrophic (out of scope)
+Relationship to Other Phase 2 Artifacts
+
+Failure modes reference System Decomposition
+
+Abort logic respects Performance Bounds
+
+Environmental triggers reference Operating Envelope
+
+No Phase 2 document overrides another; conflicts must be resolved explicitly.
+
+Phase 2 Completion Condition (for This Step)
+
+This step is complete when:
+
+Major failure modes are enumerated
+
+Failure outcomes are classified
+
+Abort behavior is passive and bounded
+
+No execution or recovery mechanisms are implied
+
+Plain-English Summary
+
+This document explains how GEMS is expected to fail, degrade, or shut itself down without creating new hazards. It treats failure as normal and focuses on preventing escalation rather than guaranteeing success.
