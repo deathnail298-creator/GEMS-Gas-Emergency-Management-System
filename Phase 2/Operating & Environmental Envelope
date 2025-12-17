@@ -1,0 +1,179 @@
+Phase 2 — Operating & Environmental Envelope
+
+GEMS (Gas Emergency Management System)
+
+Purpose
+
+This document defines the assumed operating and environmental envelope for GEMS during Phase 2 analysis.
+
+These conditions are analytical assumptions, not validated limits.
+They exist to bound reasoning, modeling, and trade studies without authorizing testing or execution.
+
+Envelope Philosophy
+
+All values are assumed, not proven
+
+Assumptions are intentionally conservative
+
+Where uncertainty exists, bounds are used instead of point values
+
+No assumption implies survivability, qualification, or readiness
+
+Phase 2 answers “what must be reasoned about,” not “what has been demonstrated.”
+
+Operating Mode Assumptions
+Operational Role
+
+Emergency or contingency operation
+
+Intermittent use
+
+Long dormant periods punctuated by short active intervals
+
+Duty Cycle (Assumed)
+
+Predominantly dormant
+
+Short-duration activation
+
+No requirement for continuous operation
+
+No assumptions are made about:
+
+Frequency of activation
+
+Total lifetime cycles
+
+Operational availability
+
+Environmental Domains Considered
+1. Pressure Environment (Analytical)
+
+Near-vacuum external environment assumed
+
+Internal pressures assumed to be low and transient
+
+No sustained pressure differentials assumed
+
+Phase 2 does not assume pressure containment or pressure-rated components.
+
+2. Thermal Environment (Analytical)
+
+Wide external temperature swings assumed
+
+Passive thermal behavior only
+
+No active heating or cooling assumed
+
+Thermal reasoning is limited to:
+
+Survivability logic
+
+Material compatibility considerations
+
+Gross thermal gradients
+
+No thermal qualification claims are made.
+
+3. Dust & Particulate Environment
+
+High dust exposure assumed
+
+Fine and abrasive particulates considered
+
+Dust intrusion treated as normal, not anomalous
+
+Phase 2 assumes:
+
+Dust tolerance is required
+
+Dust mitigation is passive
+
+Dust accumulation is not catastrophic by default
+
+4. Mechanical & Structural Environment
+
+Static or quasi-static placement assumed
+
+No dynamic loads assumed beyond incidental contact
+
+No shock, vibration, or launch loads considered
+
+Structural reasoning is conceptual only.
+
+5. Radiation Environment
+
+Radiation exposure acknowledged
+
+No radiation-hardening assumptions
+
+No electronics survivability claims
+
+Radiation is treated as a background constraint, not a design driver in Phase 2.
+
+Interfaces to Environment
+Environmental Interfaces Include:
+
+Gas intake exposure
+
+Dust exposure
+
+Thermal exposure
+
+Mechanical contact with surrounding structures or terrain
+
+Environmental Interfaces Exclude:
+
+Active sealing
+
+Controlled atmospheres
+
+Human interaction requirements
+
+Envelope Boundaries (Explicit Non-Assumptions)
+
+Phase 2 does not assume:
+
+Certified operating temperature limits
+
+Guaranteed minimum or maximum pressures
+
+Verified material performance
+
+Long-term durability
+
+Any such claims belong to Phase 3 or later.
+
+Use of Envelope in Phase 2
+
+This envelope is used to:
+
+Drive trade studies
+
+Bound performance reasoning
+
+Identify dominant constraints
+
+Eliminate implausible architectures
+
+It is not used to:
+
+Validate designs
+
+Justify builds
+
+Support proposals or contracts
+
+Phase 2 Completion Condition (for This Step)
+
+This step is complete when:
+
+Environmental assumptions are explicit
+
+No assumption implies validation
+
+Later Phase 2 documents reference this envelope consistently
+
+Plain-English Summary
+
+This document defines the assumed environmental and operating conditions used for Phase 2 analysis of GEMS. These assumptions bound reasoning without claiming that the system has been tested, qualified, or proven to survive real environments.
