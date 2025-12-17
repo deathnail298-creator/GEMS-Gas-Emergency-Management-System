@@ -1,0 +1,176 @@
+Phase 2 — Scope & Exclusions
+
+GEMS (Gas Emergency Management System)
+
+Purpose
+
+This document defines the allowed scope and hard exclusions for Phase 2 work on GEMS.
+
+Phase 2 exists to convert a feasible concept (Phase 1) into a fully reasoned, engineerable system description without authorizing execution, testing, fabrication, or deployment.
+
+This document is the guardrail for all Phase 2 content.
+
+Phase 2 Scope (Allowed Work)
+
+Phase 2 may include the following activities and outputs.
+
+1. System-Level Reasoning
+
+Full system decomposition into subsystems
+
+Definition of system boundaries and interfaces
+
+Identification of inputs, outputs, and dependencies
+
+Clear separation between GEMS and external systems
+
+2. Environmental Reasoning
+
+Vacuum assumptions
+
+Thermal environment assumptions
+
+Dust exposure assumptions
+
+Mission-context reasoning (e.g., surface, subsurface, emergency-only operation)
+
+All environmental content is analytical, not validated.
+
+3. Performance Bounding (Non-Optimized)
+
+Upper and lower performance bounds
+
+“Cannot exceed” and “must at least tolerate” style reasoning
+
+Constraint-driven estimates
+
+Phase 2 does not select targets or optimize performance.
+
+4. Subsystem Trade Studies
+
+Passive vs active approaches
+
+Complexity vs robustness tradeoffs
+
+Failure tolerance vs efficiency tradeoffs
+
+Architecture comparisons
+
+Trade studies may eliminate options but do not commit to builds.
+
+5. Failure & Degradation Reasoning
+
+Failure modes and effects
+
+Graceful degradation paths
+
+Catastrophic vs tolerable failures
+
+Abort or isolation logic (conceptual)
+
+No reliability claims are made.
+
+6. Planning-Grade Modeling
+
+Cost drivers (directional)
+
+Mass drivers (directional)
+
+Power and thermal drivers (directional)
+
+Schedule drivers (conceptual)
+
+All numbers are planning estimates, not commitments.
+
+Explicit Phase 2 Exclusions (Non-Negotiable)
+
+The following are not allowed in Phase 2 content.
+
+1. Execution Activities
+
+Hardware fabrication
+
+Prototype construction
+
+Testing or experimentation
+
+Environmental validation
+
+Field trials
+
+Phase 2 authorizes zero execution.
+
+2. Readiness or Qualification Claims
+
+No TRL advancement claims
+
+No flight readiness claims
+
+No operational readiness claims
+
+No certification language
+
+3. Manufacturing & Production
+
+No manufacturing plans
+
+No tooling design
+
+No supply-chain commitments
+
+No production schedules
+
+4. Commercial or Contractual Actions
+
+No proposals
+
+No bids
+
+No commercialization plans
+
+No pricing commitments
+
+No customer-specific tailoring
+
+5. Optimization or Final Design Lock
+
+No finalized geometries
+
+No tolerance stackups
+
+No materials selection freeze
+
+No optimization language (“best”, “ideal”, “maximized”)
+
+Phase 2 explores — it does not lock.
+
+Relationship to Other Phases
+Phase 1
+
+Phase 1 is frozen and authoritative for feasibility
+
+Phase 2 may refine or contradict Phase 1 conclusions
+
+Phase 1 meaning is not retroactively altered
+
+Phase 3
+
+Phase 3 authorizes execution
+
+Phase 2 content may inform Phase 3
+
+Phase 2 alone grants no execution rights
+
+Phase 2 Completion Condition (for This Step)
+
+This step is complete when:
+
+Scope boundaries are unambiguous
+
+Exclusions clearly block execution and overreach
+
+Later Phase 2 documents can be rejected if they violate this scope
+
+Plain-English Summary
+
+Phase 2 is limited to analysis, reasoning, and planning-level modeling. It explicitly forbids building, testing, manufacturing, optimization, or commercialization, ensuring that all Phase 2 work remains non-executing and review-safe.
