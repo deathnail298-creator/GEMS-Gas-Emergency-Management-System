@@ -1,0 +1,86 @@
+# GEMS — Phase 2 (Engineering & Planning Package)
+
+This repository contains **Phase 2 engineering and planning work** for the Gas Emergency Management System (GEMS).
+
+Phase 2 builds on the frozen Phase 1 feasibility package and transitions the system from “physically plausible” to **engineerable, analyzable, and scorable**.
+
+Phase 2 is where assumptions are tightened, trade spaces are explored, and constraints are made explicit.
+
+---
+
+## What Phase 2 IS
+
+Phase 2 **is**:
+- Engineering analysis and refinement
+- Trade-space exploration
+- Environmental reasoning (vacuum, thermal, mission context)
+- Performance modeling and bounding
+- Interface and integration reasoning
+- Failure-tree expansion
+- Cost, mass, and complexity drivers made explicit
+
+Phase 2 exists to answer:
+
+> “If someone chose to build this, what would they actually be committing to?”
+
+---
+
+## What Phase 2 IS NOT
+
+Phase 2 is **not**:
+- A prototype build
+- A test campaign
+- A qualification effort
+- A manufacturing plan
+- A deployment commitment
+- A certification claim
+
+Phase 2 does not produce hardware.
+Phase 2 does not advance TRL by itself.
+
+---
+
+## Relationship to Phase 1
+
+- Phase 1 is **frozen** and stands on its own.
+- Phase 2 may refine, contradict, or discard Phase 1 conclusions.
+- Nothing in Phase 2 retroactively changes what Phase 1 meant.
+
+Phase 1 answers *“Is this plausible?”*  
+Phase 2 answers *“What does it really take?”*
+
+---
+
+## Phase 2 Outputs (Representative)
+
+Phase 2 work may include:
+- Environmental operating envelopes
+- Thermal and power reasoning
+- Performance bounds (not guarantees)
+- Subsystem trade studies
+- Interface definitions
+- Failure trees and abort logic
+- Planning-grade cost and schedule models
+
+These outputs are analytical and preparatory in nature.
+
+---
+
+## Execution Boundary
+
+Phase 2 content **authorizes no execution** by itself.
+
+Any physical build, testing, fabrication, proposal use, or commercialization requires a **separate execution license**.
+
+---
+
+## License
+
+Phase 2 content is governed by the license in `LICENSE`.  
+Reading is permitted. Execution is restricted.
+
+---
+
+## Plain-English Summary
+
+Phase 2 explains what it would actually take to engineer GEMS without claiming that it has been built, tested, or proven. It turns the idea into a serious, analyzable system while stopping short of execution.
