@@ -1,0 +1,200 @@
+Phase 2 — Planning-Grade Cost, Mass & Complexity Model
+
+GEMS (Gas Emergency Management System)
+
+Purpose
+
+This document provides planning-grade estimates for cost, mass, and system complexity to support Phase 2 reasoning.
+
+All values and relationships are directional, not predictive.
+They exist to surface drivers, sensitivities, and tradeoffs, not to set budgets, quotes, or schedules.
+
+Modeling Philosophy
+
+Order-of-magnitude thinking only
+
+Drivers matter more than numbers
+
+Ranges are preferred over point values
+
+Assumptions are explicit
+
+No estimate implies commitment or readiness
+
+Phase 2 answers “What dominates cost, mass, and complexity if someone chose to execute?”
+
+Cost Model (Directional)
+Primary Cost Drivers
+
+Structural materials and fabrication approach
+
+Internal geometry complexity
+
+Dust-tolerant design features
+
+Environmental survivability assumptions
+
+Documentation and qualification burden (non-hardware)
+
+Cost Categories (Relative)
+Category	Relative Contribution
+Structure & housing	Medium
+Internal geometry & routing	Medium
+Environmental survivability	High
+Electronics (if any)	Low
+Integration overhead	High
+Cost Sensitivities
+
+Costs increase rapidly with:
+
+Pressure containment assumptions
+
+Active components
+
+Tight tolerances
+
+Environmental qualification requirements
+
+Costs decrease with:
+
+Fully passive architectures
+
+Loose tolerances
+
+Non-reusable designs
+
+Emergency-only duty cycles
+
+No dollar values are asserted in Phase 2.
+
+Mass Model (Directional)
+Primary Mass Contributors
+
+Structural housing thickness
+
+Internal volume requirements
+
+Dust-tolerant geometry
+
+Mounting or shielding assumptions
+
+Mass Characteristics
+
+Mass is driven more by robustness than performance
+
+Lightweight optimization is not assumed
+
+Mass reduction trades directly against survivability and tolerance
+
+Mass Sensitivities
+
+Mass increases with:
+
+Structural overbuild
+
+Environmental margins
+
+Internal buffering volume
+
+Mass decreases with:
+
+Minimal containment
+
+Reduced internal volume
+
+Acceptance of single-use or degradable behavior
+
+No mass targets are selected.
+
+Complexity Model
+Complexity Definition (Phase 2)
+
+Complexity is defined as:
+
+Number of distinct subsystems
+
+Degree of coupling between subsystems
+
+Requirement for active control or coordination
+
+Sensitivity to environmental variability
+
+Complexity Drivers
+
+Complexity increases with:
+
+Active control logic
+
+Tight integration with external systems
+
+Redundancy strategies
+
+Recovery or self-healing behavior
+
+Complexity decreases with:
+
+Passive operation
+
+Loose coupling
+
+Deterministic behavior
+
+Accepting degradation and failure
+
+Cost–Mass–Complexity Trade Relationships
+Design Choice	Cost	Mass	Complexity
+Passive geometry	↓	↑	↓
+Active control	↑	↓	↑
+High survivability	↑	↑	↑
+Single-use design	↓	↓	↓
+Tight integration	↑	↓	↑
+
+These relationships are directional, not quantified.
+
+Planning Use Only
+
+This model may be used to:
+
+Compare architectures
+
+Identify dominant drivers
+
+Eliminate implausible options
+
+Inform Phase 3 scoping discussions
+
+This model may not be used to:
+
+Justify funding requests
+
+Set budgets
+
+Price hardware
+
+Commit schedules
+
+Relationship to Other Phase 2 Artifacts
+
+References System Decomposition for subsystem count
+
+Respects Performance Bounds (no optimization)
+
+Uses Operating Envelope assumptions
+
+Aligns with Failure Philosophy (degradation accepted)
+
+Conflicts must be resolved by revisiting assumptions, not by tightening estimates.
+
+Phase 2 Completion Condition (for This Step)
+
+This step is complete when:
+
+Dominant cost, mass, and complexity drivers are identified
+
+No numeric commitments are implied
+
+Tradeoffs are explicit and directional
+
+Plain-English Summary
+
+This document explains what would drive cost, weight, and complexity for GEMS without assigning budgets or targets. It highlights what makes the system expensive or simple so later phases can make informed choices.
