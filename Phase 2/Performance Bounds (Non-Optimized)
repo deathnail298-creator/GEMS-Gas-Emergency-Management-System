@@ -1,0 +1,170 @@
+Phase 2 — Performance Bounds (Non-Optimized)
+
+GEMS (Gas Emergency Management System)
+
+Purpose
+
+This document establishes upper and lower performance bounds for GEMS to support Phase 2 reasoning.
+
+These bounds are constraints, not targets.
+They define what GEMS cannot exceed, must at least tolerate, or may reasonably achieve without implying optimization, validation, or readiness.
+
+Bounding Philosophy
+
+Bounds replace goals
+
+Ranges replace point estimates
+
+“Not to exceed” and “not required to exceed” language is used deliberately
+
+No bound implies demonstrated capability
+
+Phase 2 answers “What is plausible within constraints?” — not “What should we build?”
+
+Bounded Performance Domains
+1. Throughput (Gas Handling)
+
+Lower Bound (Analytical):
+
+GEMS may process non-continuous, intermittent gas volumes
+
+Zero throughput during dormancy is acceptable
+
+Upper Bound (Analytical):
+
+GEMS is not expected to support sustained, high-flow operation
+
+Any architecture requiring continuous flow is out of scope
+
+Interpretation:
+
+Intermittent handling is acceptable
+
+Continuous processing is neither required nor claimed
+
+2. Activation Latency
+
+Lower Bound (Analytical):
+
+Immediate activation is not required
+
+Upper Bound (Analytical):
+
+Activation delays must not be so long as to negate emergency usefulness
+
+Interpretation:
+
+Latency is bounded by practicality, not precision
+
+No real-time or instantaneous response claims are made
+
+3. Operational Duration
+
+Lower Bound (Analytical):
+
+Single-event operation is acceptable
+
+Upper Bound (Analytical):
+
+Long-duration or continuous operation is not required
+
+Interpretation:
+
+GEMS may be consumed, exhausted, or degraded by use
+
+Reusability is not assumed
+
+4. Efficiency
+
+Lower Bound (Analytical):
+
+Inefficient operation is acceptable if behavior is predictable
+
+Upper Bound (Analytical):
+
+No efficiency maximization is assumed
+
+No yield or purity guarantees are made
+
+Interpretation:
+
+Reliability of behavior is valued over efficiency
+
+5. Storage / Containment
+
+Lower Bound (Analytical):
+
+Temporary buffering only
+
+Upper Bound (Analytical):
+
+No long-term or high-pressure storage claims
+
+No containment certification implied
+
+Interpretation:
+
+Storage is incidental, not primary
+
+6. Dust Tolerance
+
+Lower Bound (Analytical):
+
+Partial blockage and performance degradation are acceptable
+
+Upper Bound (Analytical):
+
+Dust tolerance is not required to be perfect or self-clearing
+
+Interpretation:
+
+Degradation is expected
+
+Catastrophic failure is not assumed by default
+
+Performance Bound Violations (Disallowed Interpretations)
+
+Phase 2 explicitly does not allow:
+
+“Designed for maximum throughput”
+
+“Optimized efficiency”
+
+“Guaranteed response time”
+
+“Rated capacity”
+
+“Certified operating envelope”
+
+Any language implying optimization violates Phase 2 scope.
+
+Relationship to Phase 1 & Phase 3
+Phase 1
+
+Phase 1 validates behavioral plausibility
+
+Phase 2 bounds what that behavior could reasonably look like
+
+Phase 3
+
+Phase 3 may convert bounds into targets
+
+Phase 3 may select operating points
+
+Phase 3 may authorize execution
+
+Phase 2 alone does none of these.
+
+Phase 2 Completion Condition (for This Step)
+
+This step is complete when:
+
+All major performance domains have explicit bounds
+
+No bound implies optimization or validation
+
+Later Phase 2 documents reference these bounds consistently
+
+Plain-English Summary
+
+This document sets non-optimized performance limits for GEMS so Phase 2 analysis stays realistic without promising efficiency, capacity, or readiness. It defines what GEMS might reasonably handle — and just as importantly, what it is not expected to do.
