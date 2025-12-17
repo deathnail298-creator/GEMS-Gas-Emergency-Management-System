@@ -1,0 +1,233 @@
+Phase 2 — System Boundary & Decomposition
+
+GEMS (Gas Emergency Management System)
+
+Purpose
+
+This document defines the system boundary for GEMS and decomposes the system into conceptual subsystems for Phase 2 analysis.
+
+The intent is to make clear:
+
+What GEMS is
+
+What GEMS is not
+
+Where responsibility begins and ends
+
+How later analysis will be structured
+
+This document introduces structure only.
+It does not imply execution, validation, or final design.
+
+System Boundary Definition
+GEMS System Boundary
+
+GEMS is defined as a standalone emergency gas-management subsystem intended to operate as a passive or low-complexity safety component within a larger mission architecture.
+
+GEMS responsibility begins at:
+
+Gas/dust intake interface
+
+GEMS responsibility ends at:
+
+Defined gas output or containment interface
+
+Everything outside those interfaces is external to GEMS.
+
+External Systems (Explicitly Out of Scope)
+
+The following systems are not part of GEMS, even if they interact with it:
+
+Habitats or pressurized volumes
+
+Vehicles or surface infrastructure
+
+Power generation systems
+
+Life support systems
+
+Crew interfaces
+
+Control software or autonomy frameworks
+
+Communications systems
+
+GEMS does not control, command, or depend on these systems.
+
+Top-Level Functional Decomposition
+
+GEMS is decomposed into the following conceptual subsystems for Phase 2 reasoning.
+
+1. Intake Subsystem
+
+Function:
+Accept gas and entrained particulates into GEMS.
+
+Scope Includes:
+
+Intake geometry
+
+Passive acceptance behavior
+
+Dust-tolerant design assumptions
+
+Scope Excludes:
+
+Active valves
+
+Powered suction
+
+Flow regulation
+
+2. Capture & Conditioning Subsystem
+
+Function:
+Separate, settle, or condition incoming gas and particulates.
+
+Scope Includes:
+
+Expansion volumes
+
+Settling regions
+
+Geometry-driven separation
+
+Scope Excludes:
+
+Active filtration
+
+Electrostatic or magnetic separation
+
+Precision conditioning
+
+3. Routing & Storage Subsystem
+
+Function:
+Direct gas internally and optionally store or buffer it.
+
+Scope Includes:
+
+Passive routing paths
+
+Internal volumes
+
+Temporary containment assumptions
+
+Scope Excludes:
+
+Pressure vessels
+
+High-pressure storage
+
+Long-term containment guarantees
+
+4. Activation & State Logic (Conceptual)
+
+Function:
+Define how GEMS transitions from dormant to active behavior.
+
+Scope Includes:
+
+Conceptual activation triggers
+
+Deterministic state descriptions
+
+Scope Excludes:
+
+Software control
+
+Autonomous decision-making
+
+Feedback-driven behavior
+
+5. Structural & Environmental Interface
+
+Function:
+Define how GEMS exists physically within an environment.
+
+Scope Includes:
+
+Structural housing concepts
+
+Environmental exposure assumptions
+
+Mounting or placement reasoning
+
+Scope Excludes:
+
+Structural certification
+
+Load-bearing integration
+
+Deployment mechanisms
+
+6. Failure & Degradation Domain
+
+Function:
+Define how GEMS behaves when things go wrong.
+
+Scope Includes:
+
+Blockage
+
+Partial failure
+
+Reduced effectiveness
+
+Passive failure states
+
+Scope Excludes:
+
+Redundancy strategies
+
+Fault-tolerant electronics
+
+Recovery automation
+
+Inter-Subsystem Relationships
+
+All subsystems are loosely coupled
+
+No subsystem requires real-time coordination
+
+No subsystem assumes powered control
+
+Failure of one subsystem does not induce catastrophic behavior in others by design
+
+Subsystem relationships are conceptual, not implemented.
+
+Phase 2 Boundary Enforcement Rules
+
+During Phase 2:
+
+Subsystems may be refined or subdivided
+
+Subsystems may be removed or merged
+
+New subsystems may be proposed only if they remain passive and non-executing
+
+Any subsystem that implies:
+
+Testing
+
+Fabrication
+
+Control software
+
+Operational dependency
+
+…is out of Phase 2 scope.
+
+Phase 2 Completion Condition (for This Step)
+
+This step is complete when:
+
+All GEMS responsibilities are bounded
+
+External systems are clearly excluded
+
+Later Phase 2 analysis can reference subsystems without redefining scope
+
+Plain-English Summary
+
+This document defines what GEMS includes, what it explicitly excludes, and breaks the system into simple conceptual subsystems so Phase 2 analysis stays organized and non-executing.
